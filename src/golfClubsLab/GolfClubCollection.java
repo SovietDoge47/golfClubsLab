@@ -50,6 +50,7 @@ public class GolfClubCollection
 			if(input <= this.theClubs.get(i).getDistance())
 			{
 				System.out.println("You should use the '" + this.theClubs.get(i).getName() + "' which can hit up to " + this.theClubs.get(i).getDistance() + " yards");
+				return;
 			}
 		}
 	}
